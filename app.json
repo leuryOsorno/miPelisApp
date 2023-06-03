@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.leuryosorno.miPelisApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1a85f345-8655-4c3e-9fb0-3ffaa81c4b9b"
+      }
+    },
+    "owner": "leuryosorno"
   }
 }
