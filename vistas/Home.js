@@ -12,11 +12,11 @@ import {
   getPopularTv,
   getFamilyMovies,
   getDocumentaryMovies,
-} from '../services/service';
+} from '../servicios/servicio';
 import {SliderBox} from 'react-native-image-slider-box';
 import react from 'react';
-import List from '../components/List';
-import Error from '../components/Error';
+import List from '../componentes/List';
+import Error from '../componentes/Error';
 
 const dimentions = Dimensions.get('screen');
 const Home = ({navigation}) => {

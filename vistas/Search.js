@@ -10,9 +10,9 @@ import {
   Text,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-import {searchMovieTv} from '../services/service';
-import Card from '../components/Card';
-import Error from '../components/Error';
+import {searchMovieTv} from '../servicios/servicio';
+import Card from '../componentes/Card';
+import Error from '../componentes/Error';
 
 const Search = ({navigation}) => {
   const [text, onChangeText] = useState();

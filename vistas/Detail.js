@@ -11,11 +11,11 @@ import {
   Modal,
   Pressable,
 } from 'react-native';
-import PlayButton from '../components/PlayButton';
+import PlayButton from '../componentes/PlayButton';
 import StarRating from 'react-native-star-rating';
-import {getMovie} from '../services/service';
+import {getMovie} from '../servicios/servicio';
 import dateFormat from 'dateformat';
-import StopButton from '../components/StopButton'
+import StopButton from '../componentes/StopButton'
 
 
 const placeholderImage = require('../assets/images/placeholder.png');
